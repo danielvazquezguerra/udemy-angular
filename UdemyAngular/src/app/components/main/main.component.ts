@@ -14,6 +14,8 @@ export class MainComponent implements OnInit {
     autor: 'Ben Parker'
   }
 
+  personajes:string[] = ['Spiderman', 'Venom', 'Octopus'];
+
   constructor() { }
 
   ngOnInit(): void {
